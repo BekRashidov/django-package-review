@@ -1,0 +1,11 @@
+### Registration
+POST http://127.0.0.1:8000/auth/registration/ HTTP/1.1
+
+Content-Type: application/json
+
+{
+    "username": "ogabek",
+    "password1": "ogabek12345",
+    "password2": "ogabek12345",
+    "email": "bekrashidov2001@gmail.com"
+}
