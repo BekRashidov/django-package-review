@@ -5,7 +5,7 @@ from allauth.account.signals import user_logged_in
 User = get_user_model()
 
 
-def user_logged_in_receiver(request, user):
+def user_logged_in_receiver(request, user, **kwargs):
     print(request)
     print(user)
 
